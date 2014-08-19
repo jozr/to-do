@@ -9,3 +9,12 @@
 </div>
 
 <p><a href="/tasks/">Return to tasks list</a></p>
+
+
+<% if @task.errors.any? %>
+  <ul>
+    <% @task.errors.full_messages.each do |message| %>
+      <li class="errors"><%= message %></li>
+    <% end %>
+  </ul>
+<% end %>
