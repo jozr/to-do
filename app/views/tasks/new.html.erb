@@ -3,7 +3,7 @@
 <div class="buttonholder">
 <form action="/tasks/" method="post">
   <label for="task_name">Description</label>
-  <input id="task_name" name="name" type="text">
+  <input id="task_name" name="name" type="text" value="<%= @task.name %>">
   <button type="submit">+</button>
 </form>
 </div>
