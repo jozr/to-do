@@ -11,7 +11,7 @@ PostgreSQL
 In your terminal, clone this repository:
 
 ```console
-$ git clone https://github.com/jozwright/to_do_list_rails.git
+$ git clone https://github.com/jozwright/ToDo.git
 ```
 
 Make sure you've installed [PostgreSQL](http://www.postgresql.org/download/).
